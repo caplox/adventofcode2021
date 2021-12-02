@@ -47,16 +47,16 @@ int partTwo()
 	
 		switch (strlen(command))
 		{
-				case 7:
-					x = x+num;
-					y += aim*num;
-					break;
-				case 2:
-					aim = aim-num;
-					break;
-				case 4:
-					aim = aim+num;
-					break;
+			case 7:
+				x = x+num;
+				y += aim*num;
+				break;
+			case 2:
+				aim = aim-num;
+				break;
+			case 4:
+				aim = aim+num;
+				break;
 		}
 	}
 	return x*y;
