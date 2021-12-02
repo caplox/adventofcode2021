@@ -11,7 +11,6 @@ def partOne():
         elif "down" in command:
             y += int(command[1])
     return x*y
-    file.close()
 
 def partTwo():
     file1 = open("input.txt", "r")
@@ -27,7 +26,6 @@ def partTwo():
         elif "down" in command:
             aim += int(command[1])     
     return x*y
-    file.close()
         
 print(partOne()) 
 print(partTwo())
